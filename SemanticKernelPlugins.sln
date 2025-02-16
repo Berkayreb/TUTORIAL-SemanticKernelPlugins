@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelPlugins.Server", "SemanticKernelPlugins.Server\SemanticKernelPlugins.Server.csproj", "{3FE273D2-8A22-4050-98A7-8AC431703698}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "semantickernelplugins.client", "semantickernelplugins.client\semantickernelplugins.client.esproj", "{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE273D2-8A22-4050-98A7-8AC431703698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE273D2-8A22-4050-98A7-8AC431703698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE273D2-8A22-4050-98A7-8AC431703698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE273D2-8A22-4050-98A7-8AC431703698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBA35EF-8054-4CAB-B8B9-27CB134C333E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

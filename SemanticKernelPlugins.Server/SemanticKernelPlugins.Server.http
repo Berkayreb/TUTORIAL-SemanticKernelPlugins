@@ -1,0 +1,6 @@
+@SemanticKernelPlugins.Server_HostAddress = http://localhost:5201
+
+GET {{SemanticKernelPlugins.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

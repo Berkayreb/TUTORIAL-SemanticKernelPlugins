@@ -19,6 +19,7 @@ namespace SemanticKernelPlugins.Server.Plugins
         [return: Description("An array of lights")]
         public Task<List<LightModel>> GetLightsAsync()
         {
+            //GetFromIOTDevice();
             return Task.FromResult(lights);
         }
 
@@ -37,6 +38,9 @@ namespace SemanticKernelPlugins.Server.Plugins
             {
                 return null;
             }
+
+            //ChangeStateOfIOTDevice();
+
 
             // Update the light with the new state
             light.IsOn = isOn;
